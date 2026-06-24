@@ -174,15 +174,17 @@ small { font-size: 0.8rem; }
 }
 .nav__mobile-menu {
   display: none;
-  position: absolute;
+  position: fixed;
   top: var(--nav-h);
   left: 0;
   right: 0;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
-  padding: 20px 32px 28px;
+  padding: 24px 24px 32px;
   flex-direction: column;
   gap: 20px;
+  z-index: 99;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
 }
 .nav__mobile-menu a {
   font-size: 1rem;
