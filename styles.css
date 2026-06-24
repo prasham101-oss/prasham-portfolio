@@ -826,39 +826,99 @@ small { font-size: 0.8rem; }
 .modal__body .thesis-point p { margin: 0; }
 
 /* 18. Responsive */
-@media (max-width: 768px) {
-  .container { padding: 0 20px; }
-  .section { padding: 64px 0; }
-  .nav__links { display: none; }
-  .nav__hamburger { display: flex; }
 
-  .about__grid {
-    grid-template-columns: 1fr;
-    gap: 36px;
-  }
-  .about__photo { margin: 0 auto; }
-  .stats { flex-direction: row; }
-  .stat-card { min-width: 100px; }
-
-  .thesis-grid { grid-template-columns: 1fr; }
-  .investments-grid { grid-template-columns: 1fr; }
-  .modal__panel { width: 100%; }
-  .modal-content-body { padding: 24px 20px 32px; }
-  .modal-thesis-header { height: 160px; }
-  .modal-thesis-header__text { padding: 16px 20px 20px; }
-  .detail-meta { flex-direction: column; gap: 8px; }
-  .metrics-grid { grid-template-columns: 1fr 1fr; }
-}
-
+/* Tablet */
 @media (max-width: 1024px) {
   .thesis-grid { grid-template-columns: 1fr 1fr; }
+  .about__grid { gap: 40px; }
 }
 
-@media (max-width: 480px) {
-  h1 { font-size: 2rem; }
-  .stats { flex-direction: column; }
-  .stat-card { min-width: unset; }
+/* Mobile */
+@media (max-width: 768px) {
+  .container { padding: 0 20px; }
+  .section { padding: 56px 0; }
+
+  /* Nav */
+  .nav__links { display: none; }
+  .nav__hamburger { display: flex; }
+  .nav__logo { padding-right: 0; }
+
+  /* About */
+  .about__grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .about__photo,
+  .about__photo--img {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+  }
+
+  /* Stats — 2×2 grid so long text wraps neatly */
+  .stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  .stat-card { min-width: unset; padding: 14px 14px; }
+  .stat-card__value { font-size: 0.95rem; }
+  .stat-card__label { font-size: 0.7rem; }
+
+  /* Grids */
   .thesis-grid { grid-template-columns: 1fr; }
-  .metrics-grid { grid-template-columns: 1fr; }
-  .modal { padding: 12px; }
+  .investments-grid { grid-template-columns: 1fr; }
+
+  /* Thesis cards shorter on mobile */
+  .thesis-card { height: 220px; }
+
+  /* Pick cards */
+  .pick-card { height: 180px; }
+
+  /* Contact */
+  .contact { text-align: center; }
+  .contact__details { align-items: center; }
+
+  /* Modal — slides up from bottom like a sheet */
+  .modal {
+    padding: 0;
+    align-items: flex-end;
+  }
+  .modal__panel {
+    width: 100%;
+    max-width: 100%;
+    max-height: 90vh;
+    border-radius: 16px 16px 0 0;
+  }
+  .modal-thesis-header { height: 150px; border-radius: 16px 16px 0 0; }
+  .modal-thesis-header__text { padding: 14px 18px 18px; }
+  .modal-content-body { padding: 20px 18px 32px; }
+  .modal__body .thesis-point { margin-bottom: 16px; }
+  .detail-meta { flex-direction: row; flex-wrap: wrap; gap: 6px; }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .container { padding: 0 16px; }
+  .section { padding: 44px 0; }
+
+  h2 { font-size: 1.5rem; }
+
+  /* Stats stay 2-col but even more compact */
+  .stats { gap: 8px; }
+  .stat-card { padding: 12px; }
+  .stat-card__value { font-size: 0.88rem; }
+
+  /* Exp list slightly smaller */
+  .about__exp-list li { font-size: 0.88rem; }
+
+  /* Cards */
+  .thesis-card { height: 200px; }
+  .pick-card { height: 160px; }
+
+  /* Modal */
+  .modal { padding: 0; }
+  .modal__panel { max-height: 92vh; }
+  .modal-content-body { padding: 16px 16px 28px; }
 }
