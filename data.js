@@ -13,64 +13,56 @@ const marketTheses = [
     date: "2025",
     status: "published",
     image: "https://images.unsplash.com/photo-1630142895963-6996ae6b3a5b?w=1200&q=80&auto=format&fit=crop",
-    execSummary: "Renewable energy — spanning geothermal, nuclear, and waste-to-energy — is entering a new phase of capital formation, driven by hyperscaler demand for clean baseload power and converging global policy frameworks. India is now replicating the conditions that catalysed the US energy transition, with significant investment opportunities emerging across the capital stack.",
+    execSummary: "",
     usThemes: [
       {
         heading: "Pilot-Stage Capital Formation",
-        body: "Companies with first-of-a-kind technologies at the pilot or demonstration stage are attracting significant interest from late-stage and infrastructure investors. Capital is increasingly being allocated across both the technology and execution layers, with combined-entity raises proving particularly well received by the market."
+        body: "Companies with first-of-a-kind technologies at the pilot or demonstration stage are attracting significant interest from late-stage and infrastructure investors. Those raising capital at a combined entity level, with equity allocated across both the technology and execution layers, have been particularly well received."
       },
       {
         heading: "Narrowing Valley of Death",
-        body: "The funding gap between pilot stage and Final Investment Decision (FID) has narrowed considerably. This reduction in the traditional 'valley of death' for energy start-ups reflects growing investor confidence in validated technologies and the maturing of the sector's capital markets."
+        body: "The funding gap between pilot and FID has narrowed considerably leading to what was earlier known as the valley of death for energy start-ups to shrink in size."
       },
       {
         heading: "Hyperscaler Offtake Agreements",
-        body: "Data centre hyperscalers — Google, Meta, and Amazon — are signing offtake agreements and PPAs with next-generation energy companies that have validated their technologies through proof-of-concept and test runs, even before reaching FID. This provides critical revenue visibility for early-stage developers."
+        body: "Data centre hyperscalers such as Google, Meta and Amazon are signing offtake agreements and PPAs with next-generation energy companies that have validated their technologies through proof-of-concept and test runs, despite not yet reaching FID."
       },
       {
         heading: "Sizeable Series Rounds Reducing Project Finance Dependence",
-        body: "Next-generation energy companies are raising Series rounds in excess of hundreds of millions of dollars to fund development from test runs through Commercial Operation Date (COD). This reduces dependence on project finance markets amid geopolitical uncertainty and heightened energy price volatility."
+        body: "Next-generation energy companies are raising sizeable Series rounds, often in excess of hundreds of millions of dollars, to fund development from test runs through COD. This reduces dependence on project finance markets amid geopolitical uncertainty and heightened energy price volatility."
       },
       {
         heading: "Operational Exposure Requirements Across the Supply Chain",
-        body: "Capital raises increasingly require providers to maintain operational exposure. SMR component manufacturers and reactor technology providers are expected to maintain equity participation in first commercial projects until operational status is achieved, aligning economic incentives with execution."
+        body: "Capital raises across the supply chain are increasingly incorporating structures that require providers to have operational exposure. For example, SMR component manufacturers and reactor technology providers are expected to maintain equity participation in first commercial projects until operational status is achieved."
       },
       {
         heading: "Public Market Access Post-COD",
-        body: "A growing number of companies are accessing public markets through IPOs and SPACs following COD of their first projects and ahead of revenue realisation from hyperscaler PPAs. This creates a structured pathway from development-stage capital to public equity markets."
-      },
-      {
-        heading: "Long-Term Transition to Geothermal and Nuclear",
-        body: "While data centres currently rely on natural gas turbines to ease pressure on the grid, the long-term transition is expected to favour geothermal and nuclear solutions as the most viable forms of clean baseload power for hyperscalers at scale."
+        body: "A growing number of companies are accessing public markets through IPOs and SPACs to fund late-stage development following COD of their first projects and ahead of revenue realization from hyperscaler PPAs. While data centres currently rely on natural gas turbines to ease pressure on the grid, the long-term transition is expected to favour geothermal and nuclear solutions."
       }
     ],
     indiaContext: [
       {
         heading: "Policy Framework Mirrors the US Inflation Reduction Act",
-        body: "India has introduced legislation and initiatives including the SHANTI Act, Nuclear Energy Mission, National Policy on Geothermal, and National Green Hydrogen Mission. These developments closely resemble the policy groundwork that preceded the US Inflation Reduction Act, which catalysed a wave of accelerated investment across the alternative energy sector."
+        body: "India has introduced legislation and initiatives such as the SHANTI Act, Nuclear Energy Mission, National Policy on Geo-thermal and National Green Hydrogen Mission. These developments resemble the policy groundwork observed in the US similar to the Inflation Reduction Act, which was the catalyst for accelerated investments across the alternative energy sector."
       },
       {
         heading: "Solar Land Constraints Creating Nuclear and Geothermal Tailwinds",
-        body: "Solar remains India's largest renewable energy source, growing at a CAGR approaching 40%. However, land availability is a structural constraint that is expected to become more pronounced over time, limiting the scalability of industrial-sized solar farms and creating significant demand pull for nuclear and geothermal alternatives."
+        body: "Solar remains India's largest renewable energy source and continues to grow at a CAGR approaching 40%. However, land availability remains a structural constraint which is expected to become more pronounced over time with population growth, limiting the scalability of industrial sized solar farms."
       },
       {
         heading: "100GW Nuclear Target Requires Private Capital",
-        body: "India has set a stated target of 100GW of nuclear capacity by 2047, including 220 indigenous SMRs. While India has demonstrated expertise in thorium reactors and fuel innovation, achieving this target will require substantial private capital, despite the sector currently being tightly controlled by NTPCI."
+        body: "Due to this constraint with solar there has been a stronger push towards nuclear energy, with a stated target of 100GW of capacity by 2047. While India has demonstrated expertise in thorium reactors and fuel innovation, these technologies remain at the prototyping/testing stages. Achieving the target of 220 indigenous SMRs will require private capital despite the sector currently being tightly controlled by NTPCI."
       },
       {
         heading: "Evolution Towards a PPP Model for Nuclear",
-        body: "The nuclear sector is expected to evolve towards a Public-Private Partnership model, where NTPCI retains responsibility for fuel supply and governance, while reactors are operated by Indian private sector conglomerates backed by external capital — mirroring the structure emerging in the US and UK."
+        body: "Over time, this is likely to evolve closer to a PPP model where NTPCI will retain responsibility for fuel supply and governance, while reactors are operated by Indian private sector conglomerates backed by external capital."
       },
       {
         heading: "Macro Factors Accelerating the Energy Transition",
-        body: "External factors, including geopolitical conflict and the depreciation of the INR against the USD, have accelerated the shift towards alternative energy as oil and gas prices continue to rise. This macro backdrop materially strengthens the investment case for domestic energy independence."
-      },
-      {
-        heading: "Broad Investment Opportunity Across Sub-Sectors",
-        body: "Geothermal, battery storage, EVs, and waste-to-energy through biopellets are all expected to attract substantial public and private investment as India pursues greater energy independence. These sectors represent the next wave of capital deployment beyond solar."
+        body: "External factors such as the Iran War and the depreciation of the INR against the USD have accelerated the shift towards alternative energy as oil and gas prices continue to rise. Sectors including geothermal, battery storage, EVs and waste-to-energy through biopellets are expected to attract substantial public and private investment as India pursues greater energy independence."
       }
     ],
-    conclusion: "Alternative energy in India is at an inflection point — policy frameworks are in place, capital is beginning to flow, and the hyperscaler-driven demand narrative from the US is beginning to replicate domestically. The most attractive opportunities lie at the intersection of proven technology, policy support, and private capital deployment, particularly in nuclear and geothermal where India currently lacks sufficient domestic capital."
+    conclusion: ""
   },
   {
     id: "it-services",
@@ -80,56 +72,56 @@ const marketTheses = [
     date: "2025",
     status: "published",
     image: "https://images.unsplash.com/photo-1584169417032-d34e8d805e8b?w=1200&q=80&auto=format&fit=crop",
-    execSummary: "The introduction of AI into the corporate workforce is fundamentally restructuring the global IT services and consulting landscape. Traditional outsourcing models are under structural pressure, and the firms — and investors — that correctly identify the emerging AI-native model will be best positioned for the next decade of value creation.",
+    execSummary: "",
     usThemes: [
       {
         heading: "AI Commoditising Traditional Consulting Functions",
-        body: "Traditional consulting functions — including pattern recognition, data analysis, and report generation — have become increasingly commoditised. Software programming and maintenance activities are also becoming more accessible through LLMs, fundamentally altering the unit economics of the consulting model and compressing margins on legacy service lines."
+        body: "With the introduction of AI into the corporate workforce, many traditional consulting functions such as pattern recognition, data analysis and report generation have become increasingly commoditized. Software programming and maintenance activities are also becoming more accessible through LLMs."
       },
       {
         heading: "Shift to Agile, AI-Native Firms",
-        body: "The consulting model is shifting away from large incumbents towards smaller and more agile firms with the speed, execution capabilities, and governance frameworks required to help enterprises become AI-native. This has driven increased demand for pure-play AI projects, including agent creation for repetitive tasks across SMB and mid-market clients."
+        body: "Due to this disruption, the consulting model has shifted away from large incumbents towards smaller and more agile firms with the speed, execution capabilities and governance frameworks required to help enterprises become AI-native. This has driven increased demand for pure-play AI projects, including agent creation for repetitive tasks across SMB and mid-market clients."
       },
       {
         heading: "Client Bifurcation: Category 1 vs Category 2",
-        body: "Projects have bifurcated based on client profiles. Category 1 clients (Mag 7 and technology leaders) are focused on governance frameworks, infrastructure standards, and token optimisation. Category 2 clients (Fortune 500, mid-market, and SMBs outside tech) are primarily seeking workflow automation, productivity enhancement, and AI upskilling — representing the largest source of future demand."
+        body: "Projects have increasingly bifurcated based on client profiles: Category 1 clients comprising the Mag 7 and technology leaders, and Category 2 clients comprising Fortune 500 companies, mid-market businesses and SMBs outside the technology sector. Category 1: Technology leaders are at the forefront of AI adoption, with employees increasingly using vibe coding to develop solutions for day-to-day challenges. Projects in this segment are largely focused on building governance frameworks and infrastructure to ensure internally developed solutions adhere to enterprise standards and do not disrupt existing products or systems. A growing area of focus is token optimization and educating employees on efficient token usage amid rising AI-related spending. Category 2: These clients are generally AI laggards, with projects primarily centered around workflow automation, productivity enhancement and AI education and upskilling initiatives. This segment is expected to be the largest source of future demand for AI-related services."
       },
       {
         heading: "Outcome-Based Commercial Models",
-        body: "Commercial models have shifted from fixed-fee and time-and-material contracts towards outcome-based and success-linked structures. Clients increasingly expect consulting firms to share in the productivity gains generated through AI, while traditional labour arbitrage models have become less effective as a competitive differentiator."
+        body: "Commercial models have shifted from fixed-fee and time-and-material contracts towards outcome-based and success-linked structures. Clients increasingly expect consulting firms to share the productivity gains generated through AI, while traditional labour arbitrage models have become less effective."
       },
       {
         heading: "Joint Ventures and Proprietary IP as a New Revenue Model",
-        body: "An emerging model involves using proprietary IP and AI capabilities to develop new products and solutions. These initiatives are typically structured as joint ventures between clients and consulting firms, reducing upfront investment requirements while ensuring the consulting firm maintains economic alignment and long-term participation in the value created."
+        body: "Another emerging model involves using proprietary IP and AI capabilities to develop new products and solutions. These initiatives are typically structured as joint ventures between clients and consulting firms, reducing upfront investment requirements for clients while ensuring the consulting firm maintains economic alignment and long-term participation."
       }
     ],
     indiaContext: [
       {
         heading: "Reversal of the Outsourcing Model",
-        body: "India has historically been the services capital of the world, with firms such as TCS, Infosys, and Wipro generating growth through exports to large US enterprises. This trend is beginning to reverse as clients increasingly bring work in-house using AI, making large outsourcing contract wins increasingly difficult to sustain at historical growth rates."
+        body: "India has historically been the services capital of the world, with firms such as TCS, Infosys and Wipro generating growth through exports to large US enterprises. This trend is beginning to reverse as clients increasingly bring work in-house using AI, making large outsourcing contracts wins a thing of the past."
       },
       {
         heading: "Mid-Market and SMB as the Growth Pocket",
-        body: "Opportunities remain within the mid-market and SMB segments, where enterprise governance expertise can support AI upskilling initiatives and Agentic AI workflow deployments. This segment is expected to be the most resilient and fastest-growing area for Indian IT services firms over the medium term."
+        body: "Traditional staffing and outsourcing projects are becoming less relevant, with the need to be agile and AI-first emerging as the primary challenge for both companies and investors. However, opportunities remain within the mid-market and SMB segments, where enterprise governance expertise can support AI upskilling initiatives and Agentic AI workflow deployments."
       },
       {
         heading: "Inorganic Expansion into AI-First Markets",
-        body: "Given the industry's limited organic growth outlook, Indian consulting firms have increasingly pursued strategic inorganic expansion. The US and European markets are particularly attractive, with larger players seeking acquisitions of AI-first and agile firms serving the mid-market segment."
+        body: "Given the industry's limited growth outlook, consulting firms have increasingly pursued strategic inorganic expansion. The US and European markets are particularly attractive, with larger players seeking acquisitions of AI-first and agile firms serving the mid-market segment."
       },
       {
         heading: "GCCs as AI Training Grounds",
-        body: "Global Capability Centers (GCCs) are increasingly becoming training grounds for AI LLMs, driving a broader push towards intelligence across functions including finance, legal, sales, accounting, and customer support. India's GCC ecosystem positions it as a critical node in the global AI value chain."
+        body: "Global Capability Centers (GCCs) are increasingly becoming training grounds for AI LLMs, driving a broader push towards intelligence across functions such as finance, legal, sales, accounting and customer support."
       },
       {
         heading: "Co-Development and JV Models Gaining Traction",
-        body: "Firms such as EY are making additional investments in strategically important projects where products and solutions can be developed alongside clients using their IP. These co-development agreements and joint ventures represent the next evolution of the Indian IT services model beyond traditional staffing."
+        body: "Firms such as EY are making additional investments in strategically important projects where products and solutions can be developed alongside clients using their IP. These initiatives are typically structured through co-development agreements or joint ventures."
       },
       {
         heading: "AI-First Will Define the Next Generation",
-        body: "The next iteration of Indian consulting firms is likely to be AI-first. While some traditional incumbents will successfully adapt, others are unlikely to survive the transition. Project requirements are expected to continue differentiating between Category 1 and Category 2 clients, with agility and AI fluency becoming the primary competitive advantages."
+        body: "The next iteration of Indian consulting firms is likely to be AI-first. While some traditional incumbents will successfully adapt, others are unlikely to survive the transition. Project requirements are also expected to continue differentiating based on Category 1 and Category 2 clients."
       }
     ],
-    conclusion: "The Indian IT services sector is undergoing a structural reset. The firms that successfully pivot from labour arbitrage to AI-native models — through organic investment, inorganic acquisition, or joint venture structures — will emerge as the defining players of the next cycle. For investors, the most attractive opportunities lie in identifying AI-first disruptors and the acquirers best positioned to consolidate the mid-market."
+    conclusion: ""
   },
   {
     id: "food-distribution",
@@ -139,56 +131,52 @@ const marketTheses = [
     date: "2025",
     status: "published",
     image: "https://plus.unsplash.com/premium_photo-1682147934977-15db041ae233?w=1200&q=80&auto=format&fit=crop",
-    execSummary: "India's food distribution sector sits at the convergence of structural inefficiency and rapid modernisation. With cold-chain infrastructure at a fraction of developed-market penetration and quick-commerce creating new demand dynamics, the sector offers substantial investment opportunities across storage, logistics, and platform businesses.",
+    execSummary: "",
     usThemes: [
       {
         heading: "Technology-Integrated Value Chain",
-        body: "Technology has been integrated across every aspect of the food and distribution ecosystem to meet regulatory requirements and improve efficiency. AI is increasingly deployed across production, processing, storage, and distribution functions to enhance throughput and support robotics applications at scale."
+        body: "Technology has been integrated across every aspect of the food and distribution ecosystem to meet stringent regulatory requirements and improve efficiency. Most operators focus on a specific segment of the value chain, including production, processing and value addition, storage or distribution. AI is increasingly being deployed across these functions to enhance efficiency and support robotics applications."
       },
       {
         heading: "Food Wastage as a Core Efficiency Metric",
-        body: "Food wastage is treated as a key performance indicator across the industry. Losses within processing and distribution are typically limited to 2–5% due to investments in refrigeration, storage practices, and cold-chain logistics. Retail remains the largest source of wastage at 10–15%, primarily driven by overstocking and SKU proliferation."
+        body: "Food wastage is treated as a key efficiency metric. Losses within processing and distribution are typically limited to 2-5% due to investments in refrigeration, storage practices and cold-chain logistics. In contrast, retail remains the largest source of wastage, with losses of 10-15% primarily driven by overstocking."
       },
       {
         heading: "Value Addition and Customer Engagement Enabling Premium Pricing",
-        body: "Value addition initiatives are prevalent across food manufacturing businesses. Experiences such as apple picking at orchards, wine tastings at vineyards, and dining within greenhouses enhance perceived value and enable premium pricing, even when they do not directly translate into sustained brand loyalty."
+        body: "Value addition and customer engagement initiatives are prevalent across food manufacturing businesses. Experiences such as apple picking at orchards, wine tastings at vineyards and dining within greenhouses enhance perceived value and enable premium pricing, even when they do not directly translate into brand loyalty."
       },
       {
         heading: "B2B-First Distribution Model with Tight Radius Economics",
-        body: "Distribution businesses typically operate within a 2 to 2.5-hour radius, with increasing emphasis on delivery speed and SKU availability. These businesses are predominantly B2B focused, integrating directly with grocery stores and restaurants. B2C exposure is managed through marketplace partnerships with Amazon Fresh, DoorDash, and Weee for hyper-local fulfilment."
+        body: "Distribution businesses typically operate within a radius of 2 to 2.5 hours, with an increasing emphasis on delivery speed and SKU availability throughout the day. These businesses are predominantly B2B focused, integrating with grocery stores and restaurants into their systems to ensure repeatability. On the B2C side, partnerships with marketplaces such as Amazon Fresh, DoorDash and Weee enable hyper-local fulfilment."
       },
       {
         heading: "Convenience Premium and Last-Mile Economics",
-        body: "Most distributors rely on grocery stores and online marketplaces for last-mile delivery, with consumers willing to pay a modest premium for convenience. Operational repeatability and B2B efficiency remain the primary focus, with B2C platforms serving as an incremental revenue and brand channel."
+        body: "Most distributors rely on grocery stores and online marketplaces for last-mile delivery, with consumers willing to pay a modest premium for convenience. The primary focus remains on the B2B model, where operational repeatability drives efficiency."
       }
     ],
     indiaContext: [
       {
         heading: "Highly Fragmented Supply Chain with Structural Losses",
-        body: "India's agricultural supply chain remains highly fragmented, with multiple intermediary layers before products reach the end consumer. APMC and Mandi-based systems alone account for losses of up to 12%, excluding losses across the broader supply chain. This fragmentation creates numerous inefficiencies and reduces incentives for investment in storage and handling technology."
+        body: "India's agricultural supply chain remains highly fragmented, with multiple intermediaries involved before products reach the end consumer. This creates numerous points of food wastage and reduces incentives for investment in technologies such as refrigeration, crate storage, packaging and grading systems. APMC & Mandis alone account for losses of up to 12%, excluding losses across the broader supply chain."
       },
       {
         heading: "Cold-Chain Investment Acceleration",
-        body: "The structural inefficiency of the supply chain has prompted accelerated investment in refrigeration infrastructure and cold-chain transportation. Players including Adani, Mahindra, Reliance, Indicold, and Snowman Logistics are actively building out capacity to reduce food wastage and improve distribution economics across the country."
-      },
-      {
-        heading: "Disintermediation Through Technology Platforms",
-        body: "Companies such as KisanKonnect are attempting to reduce physical handling and eliminate intermediary layers between farmers and consumers. This disintermediation trend, while at an early stage, mirrors the B2B platform consolidation seen in the US market and represents a significant long-term investment opportunity."
+        body: "This has prompted increased investments in refrigeration infrastructure and cold-chain transportation, with players such as Adani, Mahindra, Reliance, Indicold and Snowman Logistics focusing on reducing food wastage. Companies such as KisanKonnect are also attempting to reduce physical handling and eliminate intermediary layers between farmers and consumers."
       },
       {
         heading: "Limited Value Addition at the Farm Level",
-        body: "The fragmented nature of agricultural production limits the ability of farmers to undertake value-addition activities, resulting in crops primarily being sold as raw materials to food processors. While experiential brands such as Sula have begun to emerge, India remains in the early stages of developing consumer-facing premium food and agri-tourism offerings."
+        body: "The fragmented nature of agricultural production limits the ability of farmers to undertake value-addition activities, resulting in crops primarily being sold as raw materials to food processors. Although customer engagement initiatives have begun to emerge through brands such as Sula and its wine tasting experiences, India remains in the early stages of developing experiential offerings. Demand is expected to increase as the Indian middle class becomes more willing to pay for such experiences."
       },
       {
         heading: "Quick-Commerce Driving New B2B Infrastructure Demand",
-        body: "The rise of quick-commerce platforms has created new demand for B2B distribution services and micro-fulfilment infrastructure. However, the expectation of 10-minute delivery has presented operational challenges for larger distribution centres, requiring significant investment in urban logistics networks."
+        body: "The rise of quick-commerce platforms has created demand for B2B distribution services, although the expectation of 10-minute delivery has presented challenges for larger distribution centers. While consumers have become increasingly accustomed to paying for convenience, they remain highly value conscious and are unlikely to pay excessive premiums."
       },
       {
         heading: "Traceability Investment and Greenhouse Farming",
-        body: "To cater to consumers seeking both value and premium products, grocery stores and marketplaces have strengthened traceability across their sourcing and supply chains. This has driven increased investment in greenhouse farming, aquaculture, and related segments, with government subsidies providing additional support for domestic food security initiatives."
+        body: "To cater to consumers seeking both value and premium products, grocery stores and marketplaces have strengthened traceability across their sourcing and supply chains. This has driven increased investment in greenhouse farming, aquaculture and related segments, with government subsidies providing additional support."
       }
     ],
-    conclusion: "India's food distribution sector is transitioning from a fragmented, intermediary-heavy system towards a technology-enabled, efficiency-first model. The investment opportunity is concentrated in cold-chain infrastructure, B2B distribution platforms, and businesses that can bridge the gap between fragmented farm-level production and the growing quick-commerce demand for speed and traceability."
+    conclusion: ""
   }
 ];
 
@@ -238,7 +226,10 @@ const indiaPicks = [
     opportunityStatus: "Personal Investment",
     website: "https://medulance.com",
     companyDescription: "India's first GPS-based technology platform for emergency medical response and ambulance services.",
-    companyUpdate: "Secured funding from Namita Thapar, Aman Gupta and Peyush Bansal on Shark Tank India. Raised a $3 million Series A round led by Alkemi Growth Capital and Dexter Capital.",
+    companyUpdate: [
+      "Secured funding from Namita Thapar, Aman Gupta and Peyush Bansal on Shark Tank India.",
+      "Raised a $3 million Series A round led by Alkemi Growth Capital and Dexter Capital."
+    ],
     highlights: [
       {
         heading: "Evolution of Client Mix",
@@ -272,7 +263,11 @@ const indiaPicks = [
     opportunityStatus: "Investment sourced for the UCLA Endowment Fund",
     website: "https://www.luzo.app",
     companyDescription: "Marketplace for premium beauty salons, spas and dermatology clinics — India's equivalent of an asset-light Airbnb for personal care.",
-    companyUpdate: "Part of the 100X.VC cohort of 2023. Raised a $550k Seed round led by Enrission India Capital. Secured funding from Kunal and Viraj Bahl on Shark Tank India.",
+    companyUpdate: [
+      "Part of the 100X.VC cohort of 2023.",
+      "Raised a $550k Seed round led by Enrission India Capital.",
+      "Secured funding from Kunal and Viraj Bahl on Shark Tank India."
+    ],
     highlights: [
       {
         heading: "User Momentum and Growth",
@@ -302,7 +297,10 @@ const indiaPicks = [
     opportunityStatus: "Investment sourced for the UCLA Endowment Fund",
     website: "https://www.greenlit360.com",
     companyDescription: "Provider of end-to-end sustainability solutions for large-scale live events including concerts and conferences — working with artists including Coldplay, Ed Sheeran, A.R. Rahman and Arijit Singh.",
-    companyUpdate: "Raised a Seed round from Rainmatter by Zerodha. Has worked with major global and Indian artists across their India and Middle East tours.",
+    companyUpdate: [
+      "Raised a Seed round from Rainmatter by Zerodha.",
+      "Has worked with major global and Indian artists across their India and Middle East tours."
+    ],
     highlights: [
       {
         heading: "Business Evolution: From Products to Services",
@@ -328,11 +326,14 @@ const indiaPicks = [
     sector: "Healthcare Technology",
     stage: "Seed",
     status: "published",
-    logo: "https://adsys-assets.s3.ap-south-1.amazonaws.com/logo.png",
+    logo: "https://www.adsyscontrols.com/wp-content/uploads/2015/11/Adsys_Logo_transparent.png",
     opportunityStatus: "Investment sourced for the UCLA Endowment Fund",
     website: "https://adsys.in",
     companyDescription: "Developer of an AI-powered, portable complete blood count (CBC) testing machine that requires less than 0.03ml of blood — making diagnostic testing accessible in remote and resource-constrained settings.",
-    companyUpdate: "Part of the 100X.VC cohort of 2023 and the Social Alpha incubator and accelerator. Raised a Seed round from Rainmatter by Zerodha.",
+    companyUpdate: [
+      "Part of the 100X.VC cohort of 2023 and the Social Alpha incubator and accelerator.",
+      "Raised a Seed round from Rainmatter by Zerodha."
+    ],
     highlights: [
       {
         heading: "Minimally Invasive Healthcare Technology",

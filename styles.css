@@ -130,6 +130,7 @@ small { font-size: 0.8rem; }
   color: var(--text);
   letter-spacing: -0.01em;
   margin-right: auto;
+  padding-right: 56px;
 }
 .nav__links {
   display: flex;
@@ -313,6 +314,31 @@ small { font-size: 0.8rem; }
   margin-bottom: 36px;
 }
 .about__bio p + p { margin-top: 16px; }
+.about__exp-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.about__bio .about__exp-label:first-child { margin-top: 0; }
+.about__exp-list {
+  margin: 0 0 4px 0;
+  padding-left: 20px;
+  list-style: decimal;
+}
+.about__exp-list li {
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+.about__exp-location {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
 .stats {
   display: flex;
   flex-wrap: wrap;
@@ -570,17 +596,14 @@ small { font-size: 0.8rem; }
 
 .pick-card {
   position: relative;
-  height: 200px;
+  height: 220px;
   border-radius: var(--radius);
   overflow: hidden;
-  background-color: var(--surface);
-  background-size: 55% auto;
-  background-position: center 38%;
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   border: 1px solid var(--border);
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   cursor: default;
   transition: border-color 0.22s ease, transform 0.22s ease, box-shadow 0.22s ease;
 }
@@ -591,20 +614,23 @@ small { font-size: 0.8rem; }
   box-shadow: 0 6px 24px rgba(37,99,235,0.08);
 }
 .pick-card__content {
-  padding: 12px 18px 16px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px 12px 6px;
+  background: rgba(255,255,255,0.92);
+  border-top-left-radius: 8px;
+}
+.pick-card--coming-soon .pick-card__content {
+  left: 0;
+  right: 0;
+  border-top-left-radius: 0;
   border-top: 1px solid var(--border);
-  background: var(--bg);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  background: var(--bg);
 }
-.pick-card__name {
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: var(--text);
-  font-family: 'Inter', sans-serif;
-}
-.pick-card--coming-soon .pick-card__name { color: var(--muted); }
 .pick-card__expand {
   font-size: 0.72rem;
   font-weight: 600;
@@ -735,6 +761,18 @@ small { font-size: 0.8rem; }
 .metric-card__label {
   font-size: 0.75rem;
   color: var(--muted);
+}
+.update-list {
+  list-style: decimal;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.update-list li {
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.6;
 }
 .risks-list {
   list-style: none;

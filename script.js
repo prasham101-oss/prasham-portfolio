@@ -67,7 +67,6 @@ function renderThesisGrid() {
     card.innerHTML = `
       <div class="thesis-card__content">
         <div class="thesis-card__title">${item.title}</div>
-        <div class="thesis-card__expand">${isLive ? 'Expand ↗' : 'Coming Soon'}</div>
       </div>`;
     if (isLive) card.addEventListener('click', () => openModal('thesis', item.id));
     container.appendChild(card);
@@ -89,10 +88,9 @@ function renderInvestments() {
         card.style.backgroundImage = `url('${item.logo}')`;
       }
     }
-    card.innerHTML = `
+    card.innerHTML = isLive ? '' : `
       <div class="pick-card__content">
-        <div class="pick-card__name">${item.name}</div>
-        <div class="pick-card__expand">${isLive ? 'Expand ↗' : 'Coming Soon'}</div>
+        <div class="pick-card__expand">${item.name}</div>
       </div>`;
     if (isLive) card.addEventListener('click', () => openModal('pick', item.id));
     container.appendChild(card);
@@ -158,7 +156,7 @@ function openModal(type, id) {
           ${item.website ? `<a href="${item.website}" target="_blank" rel="noopener" style="font-size:0.82rem;color:var(--muted);text-decoration:underline">${item.website.replace('https://','')}</a>` : ''}
           <hr class="divider" style="margin:20px 0 24px">
           ${item.companyDescription ? sectionHTML('Company Overview', `<p>${item.companyDescription}</p>`) : ''}
-          ${item.companyUpdate ? sectionHTML('Recent Updates', `<p>${item.companyUpdate}</p>`) : ''}
+          ${item.companyUpdate && item.companyUpdate.length ? sectionHTML('Recent Updates', `<ol class="update-list">${item.companyUpdate.map(u => `<li>${u}</li>`).join('')}</ol>`) : ''}
           ${thesisPointsHTML(item.highlights, 'Key Investment Highlights')}
         </div>`;
     }
