@@ -600,7 +600,7 @@ small { font-size: 0.8rem; }
   border-radius: var(--radius);
   overflow: hidden;
   background-color: #fff;
-  background-size: cover;
+  background-size: 70% auto;
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid var(--border);

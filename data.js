@@ -326,7 +326,7 @@ const indiaPicks = [
     sector: "Healthcare Technology",
     stage: "Seed",
     status: "published",
-    logo: "https://www.adsyscontrols.com/wp-content/uploads/2015/11/Adsys_Logo_transparent.png",
+    logo: "logo-adsys.avif",
     opportunityStatus: "Investment sourced for the UCLA Endowment Fund",
     website: "https://adsys.in",
     companyDescription: "Developer of an AI-powered, portable complete blood count (CBC) testing machine that requires less than 0.03ml of blood — making diagnostic testing accessible in remote and resource-constrained settings.",
